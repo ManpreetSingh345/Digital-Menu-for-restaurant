@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bistro Digital | Digital Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>The Digital Menu</h1>
+            <p>Scan the QR at your table to re-order anytime!</p>
+            <a href="#menu-section" class="btn-primary">View Menu</a>
+        </div>
+    </header>
+
+    <div class="admin-note">
+        <p><strong>Admin Note:</strong> Our menu is updated daily with fresh ingredients.</p>
+    </div>
+
+    <main id="menu-section" class="container">
+        
+        <div class="controls">
+            <input type="text" id="searchBar" placeholder="Search for a dish...">
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="starters">Starters</button>
+                <button class="filter-btn" data-category="main course">Main</button>
+                <button class="filter-btn" data-category="drinks">Drinks</button>
+                <button class="filter-btn" data-category="desserts">Desserts</button>
+            </div>
+        </div>
+
+        <div class="menu-grid" id="menuGrid">
+            </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 The Digital Menu. All rights reserved.</p>
+    </footer>
+    <script type="module" src="script.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
