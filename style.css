@@ -208,3 +208,157 @@ padding:10px;
 cursor:pointer;
 border-radius:8px;
 }
+
+
+
+
+
+/* Add to Order Button */
+
+.menu-card button{
+    margin-top:15px;
+    width:100%;
+    padding:10px 15px;
+    border:none;
+    border-radius:25px;
+    background:var(--accent);
+    color:white;
+    font-size:0.95rem;
+    font-weight:600;
+    cursor:pointer;
+    transition:all 0.3s ease;
+    letter-spacing:0.5px;
+}
+
+/* Hover Effect */
+
+.menu-card button:hover{
+    background:#ffb347;
+    transform:scale(1.05);
+    box-shadow:0 5px 15px rgba(243,156,18,0.4);
+}
+
+/* Click Effect */
+
+.menu-card button:active{
+    transform:scale(0.97);
+}
+
+
+
+
+
+/* CART PANEL */
+
+.cart-panel{
+position:fixed;
+top:0;
+right:-360px;
+width:340px;
+height:100%;
+background:#1f1f1f;
+padding:25px;
+transition:0.35s ease;
+overflow-y:auto;
+box-shadow:-5px 0 20px rgba(0,0,0,0.6);
+z-index:999;
+}
+
+.cart-panel.open{
+right:0;
+}
+
+.cart-panel h2{
+text-align:center;
+margin-bottom:20px;
+color:var(--accent);
+}
+
+
+
+
+/* CART ITEMS */
+
+.cart-panel ul{
+list-style:none;
+margin:15px 0;
+padding:0;
+}
+
+.cart-panel li{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px;
+margin-bottom:10px;
+background:#2a2a2a;
+border-radius:8px;
+font-size:0.9rem;
+transition:0.2s;
+}
+
+.cart-panel li:hover{
+background:#333;
+}
+
+
+
+
+
+/* TOTAL PRICE */
+
+.cart-panel p{
+font-size:1.1rem;
+margin:15px 0;
+text-align:center;
+color:var(--accent);
+}
+
+
+
+/* TABLE INPUT */
+
+#tableNumber{
+width:100%;
+padding:10px;
+border-radius:8px;
+border:none;
+background:#333;
+color:white;
+margin-bottom:15px;
+outline:2px solid transparent;
+transition:0.3s;
+}
+
+#tableNumber:focus{
+outline:2px solid var(--accent);
+}
+
+
+
+
+
+/* PLACE ORDER BUTTON */
+
+#placeOrderBtn{
+width:100%;
+padding:12px;
+border:none;
+border-radius:25px;
+background:var(--accent);
+color:white;
+font-weight:600;
+font-size:1rem;
+cursor:pointer;
+transition:all 0.3s ease;
+}
+
+#placeOrderBtn:hover{
+background:#ffb347;
+transform:scale(1.05);
+box-shadow:0 6px 18px rgba(243,156,18,0.4);
+}
+
+#placeOrderBtn:active{
+transform:scale(0.96);
+}
