@@ -135,3 +135,76 @@ footer { text-align: center; padding: 40px; color: var(--text-dim); border-top: 
     .hero h1 { font-size: 2rem; }
     .filter-buttons { display: flex; overflow-x: auto; width: 100%; padding-bottom: 10px; }
 }
+
+
+/* Floating Cart Button */
+.cart-btn{
+position:fixed;
+bottom:20px;
+right:20px;
+background:var(--accent);
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:25px;
+cursor:pointer;
+font-weight:600;
+z-index:1000;
+}
+
+/* Cart Panel */
+
+.cart-panel{
+position:fixed;
+right:-350px;
+top:0;
+width:320px;
+height:100%;
+background:#222;
+padding:20px;
+transition:0.3s;
+overflow-y:auto;
+}
+
+.cart-panel.open{
+right:0;
+}
+
+.cart-panel ul{
+list-style:none;
+margin:20px 0;
+}
+
+.cart-panel li{
+margin-bottom:10px;
+border-bottom:1px solid #444;
+padding-bottom:5px;
+}
+
+/* Feedback */
+
+.feedback-section{
+margin:50px auto;
+max-width:600px;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.feedback-section input,
+.feedback-section textarea,
+.feedback-section select{
+padding:10px;
+border-radius:8px;
+border:none;
+background:#333;
+color:white;
+}
+
+.feedback-section button{
+background:var(--accent);
+border:none;
+padding:10px;
+cursor:pointer;
+border-radius:8px;
+}
