@@ -38,6 +38,40 @@
             </div>
     </main>
 
+    <!-- Floating Cart Button -->
+<button id="cartBtn" class="cart-btn">🛒 Cart (<span id="cartCount">0</span>)</button>
+
+<!-- Cart Panel -->
+<div id="cartPanel" class="cart-panel">
+    <h2>Your Order</h2>
+    <ul id="cartItems"></ul>
+    <p><strong>Total: ₹<span id="cartTotal">0</span></strong></p>
+
+    <input type="text" id="tableNumber" placeholder="Enter Table Number">
+
+    <button id="placeOrderBtn">Place Order</button>
+</div>
+
+<!-- Feedback Section -->
+<section class="feedback-section">
+    <h2>Customer Feedback</h2>
+
+    <input type="text" id="customerName" placeholder="Your Name">
+
+    <select id="rating">
+        <option value="5">⭐⭐⭐⭐⭐</option>
+        <option value="4">⭐⭐⭐⭐</option>
+        <option value="3">⭐⭐⭐</option>
+        <option value="2">⭐⭐</option>
+        <option value="1">⭐</option>
+    </select>
+
+    <textarea id="reviewText" placeholder="Write your feedback..."></textarea>
+
+    <button id="submitFeedback">Submit Feedback</button>
+</section>
+
+
     <footer>
         <p>&copy; 2026 The Digital Menu. All rights reserved.</p>
     </footer>
