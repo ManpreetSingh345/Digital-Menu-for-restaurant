@@ -12,7 +12,6 @@ A responsive web application designed to replace traditional paper restaurant me
 
 ## 🚀 Features
 * **QR Code Access:** Scan a QR code to open the digital menu instantly.
-* **Real-time Updates:** Menu changes (prices, availability) update instantly without reloading.
 * **Responsive Design:** Optimized for mobile phones, tablets, and desktops.
 * **Cloud-Powered:** Powered by a live database to manage food categories and items.
 
