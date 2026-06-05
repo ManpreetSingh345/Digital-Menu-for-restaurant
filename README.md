@@ -6,7 +6,7 @@ A responsive web application designed to replace traditional paper restaurant me
 * **Live Demo Website:** [https://digital-menu-for-restaurant.vercel.app/#menu-section](https://digital-menu-for-restaurant.vercel.app/#menu-section)
 * **Scan to View Menu:**
   
-<img width="740" height="736" alt="image" src="https://github.com/user-attachments/assets/8d6cbcb3-dcba-4a31-8145-5d54891613e6" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/8d6cbcb3-dcba-4a31-8145-5d54891613e6" />
 
 ---
 
